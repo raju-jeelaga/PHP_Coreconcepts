@@ -1,5 +1,10 @@
-<!-- Should be turned into a header image -->
-<img src="images/pexels-fwstudio-172289.jpg" />
+
+<?php 
+$pageTitle = 'Menu';
+$headerImg = 'images/pexels-fwstudio-172289.jpg';
+include 'inc/header.inc.php';
+
+?>
 
 <h1>Our menu</h1>
   
@@ -35,3 +40,4 @@
     <li><strong>Raw Berry Cheesecake</strong> - A dairy-free cheesecake made from cashews, with a fresh berry compote.</li>
     <li><strong>Honey Lavender Panna Cotta</strong> - A creamy Italian dessert infused with organic lavender and sweetened with local honey.</li>
 </ul>
+<?php include 'inc/footer.inc.php'; ?>
